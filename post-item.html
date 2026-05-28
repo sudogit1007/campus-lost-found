@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Post Item</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<div class="card">
+<h2>Post Lost / Found Item</h2>
+
+<input type="text" id="itemName" placeholder="Item Name">
+<textarea id="description" placeholder="Description"></textarea>
+<input type="text" id="location" placeholder="Location">
+
+<select id="category">
+<option>Electronics</option>
+<option>ID Card</option>
+<option>Books</option>
+<option>Wallet</option>
+<option>Accessories</option>
+<option>Other</option>
+</select>
+
+<select id="status">
+<option>Lost</option>
+<option>Found</option>
+</select>
+
+<input type="file" id="image">
+
+<button class="btn" onclick="postItem()">
+Post Item
+</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
